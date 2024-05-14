@@ -4,7 +4,7 @@ import CartEntry from "./CartEntry";
 import { setProductQuantity } from "./actions";
 
 export const metadata = {
-  title: "Your Cart - Waaaamazon",
+  title: "Your Cart - ToyamaZon",
 };
 
 export default async function CartPage() {

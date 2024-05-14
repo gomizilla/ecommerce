@@ -24,7 +24,7 @@ export async function generateMetadata({
 }: ProductPageProps): Promise<Metadata> {
   const product = await getProduct(id);
   return {
-    title: product.name + " - Waaaamazon",
+    title: product.name + " - ToyamaZon",
     description: product.description,
     openGraph: {
       images: [{ url: product.imageUrl }],
